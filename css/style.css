@@ -139,7 +139,7 @@ li {
   text-align: center;
 }
 #robinHood .content {
-  overflow: auto;
+  overflow: hidden;
   height: 245px;
 }
 #robinHood .content .textContent {
