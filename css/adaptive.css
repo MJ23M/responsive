@@ -12,15 +12,6 @@
   #robinHood .wrapper .content .textContent h3 {
     padding: 106px 0;
   }
-  #photos {
-    height: 290px;
-  }
-  #photos .wrapper .arrow {
-    height: 290px;
-  }
-  #photos .wrapper .photo {
-    height: 290px;
-  }
   #topics .wrapper {
     padding-bottom: 180px;
   }
@@ -62,16 +53,11 @@
   #robinHood .wrapper .content .textContent h3 {
     padding: 75px 0;
   }
-  #photos {
-    height: 1668px;
-  }
   #photos .wrapper .arrow {
     width: 100%;
-    height: 556px;
   }
   #photos .wrapper .photo {
     width: 100%;
-    height: 556px;
   }
   #topics .wrapper .content {
     margin: 0 75px ;
@@ -135,15 +121,6 @@
   }
   #robinHood .wrapper .content .arrow .avatar img {
     width: 20px;
-  }
-  #photos {
-    height: 840px;
-  }
-  #photos .wrapper .arrow {
-    height: 280px;
-  }
-  #photos .wrapper .photo {
-    height: 280px;
   }
   #topics .wrapper {
     padding-bottom: 50px;

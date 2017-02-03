@@ -175,16 +175,17 @@ li {
   cursor: pointer;
 }
 #photos {
-  height: 300px;
+  height: auto;
 }
 #photos .wrapper {
   overflow: hidden;
 }
 #photos .arrow {
+  overflow: auto;
   display: inline-block;
   float: left;
   width: 33.333%;
-  height: 300px;
+  height: 100%;
   background-color: #5b0fa1;
   position: relative;
 }
@@ -203,10 +204,11 @@ li {
   display: inline-block;
   float: left;
   width: 33.333%;
-  height: 300px;
+  height: auto;
 }
 #photos .photo img {
-  height: 100%;
+  display: block;
+  height: auto;
   max-width: 100%;
 }
 #topics .wrapper {

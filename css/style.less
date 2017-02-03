@@ -172,15 +172,16 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
     }
 }
 #photos {
-    height: 300px;
+    height: auto;
     .wrapper {
         overflow: hidden;
     }
     .arrow {
+        overflow: auto;
         display: inline-block;
         float: left;
         width: 33.333%;
-        height: 300px;
+        height: 100%;
         background-color: #5b0fa1;
         position: relative;
         .avatar {
@@ -199,9 +200,10 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
         display: inline-block;
         float: left;
         width: 33.333%;
-        height: 300px;
+        height: auto;
         img {
-            height: 100%;
+            display: block;
+            height: auto;
             max-width: 100%;
         }
     }
