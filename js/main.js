@@ -1,4 +1,5 @@
-$(function() {
+$(document).ready(function(){
+    $(function() {
     var speed = 300
     var sametarget = 'true';
     
@@ -14,5 +15,32 @@ $(function() {
         }
           
     });
+    $('.arrow').height(function(){
+            var photosHeight = $('.photo').height();
+            console.log(photosHeight);
+            return (photosHeight);
+        });
+    $('#robinHood .arrow').height(function(){
+            var hoodHeight = $('.textContent').height();
+            console.log(hoodHeight);
+            return (hoodHeight);
+        });
+    $(window).resize(function(){
+        $('.arrow').height(function(){
+            var photosHeight = $('.photo').height();
+            console.log(photosHeight);
+            return (photosHeight)
+        });
+    });
+    $(window).resize(function(){
+        $('#robinHood .arrow').height(function(){
+            var hoodHeight = $('.textContent').height();
+            console.log(hoodHeight);
+            return (hoodHeight);
+        })
+    });
+    
 });
 
+
+});
