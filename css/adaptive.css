@@ -6,9 +6,6 @@
   #mainSide .wrapper .content h1 {
     margin-bottom: 35px;
   }
-  #robinHood .wrapper .content {
-    height: 235px;
-  }
   #robinHood .wrapper .content .textContent h3 {
     padding: 106px 0;
   }
@@ -47,13 +44,14 @@
     width: 15px;
     height: 15px;
   }
-  #robinHood .wrapper .content {
-    height: 173px;
-  }
   #robinHood .wrapper .content .textContent h3 {
     padding: 75px 0;
   }
+  #photos .wrapper {
+    flex-flow: column wrap;
+  }
   #photos .wrapper .arrow {
+    justify-content: space-around;
     width: 100%;
   }
   #photos .wrapper .photo {
@@ -112,15 +110,15 @@
     font-size: 10px;
     margin-bottom: 55px;
   }
-  #robinHood .wrapper .content {
-    height: 78px;
-  }
   #robinHood .wrapper .content .textContent h3 {
     font-size: 10px;
     padding: 33.5px 0;
   }
   #robinHood .wrapper .content .arrow .avatar img {
     width: 20px;
+  }
+  #photos .wrapper .arrow {
+    overflow: hidden;
   }
   #topics .wrapper {
     padding-bottom: 50px;

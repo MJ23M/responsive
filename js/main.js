@@ -15,29 +15,17 @@ $(document).ready(function(){
         }
           
     });
-    $('.arrow').height(function(){
-            var photosHeight = $('.photo').height();
+    $('#photos .arrow').height(function(){
+            var photosHeight = $('#photos .photo img').height();
             console.log(photosHeight);
             return (photosHeight);
         });
-    $('#robinHood .arrow').height(function(){
-            var hoodHeight = $('.textContent').height();
-            console.log(hoodHeight);
-            return (hoodHeight);
-        });
     $(window).resize(function(){
-        $('.arrow').height(function(){
-            var photosHeight = $('.photo').height();
+        $('#photos .arrow').height(function(){
+            var photosHeight = $('#photos .photo img').height();
             console.log(photosHeight);
             return (photosHeight)
         });
-    });
-    $(window).resize(function(){
-        $('#robinHood .arrow').height(function(){
-            var hoodHeight = $('.textContent').height();
-            console.log(hoodHeight);
-            return (hoodHeight);
-        })
     });
     
 });

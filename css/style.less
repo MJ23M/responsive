@@ -132,12 +132,12 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
     }
 }
 #robinHood {
+    
     .content {
-        overflow: hidden;
-        height: 245px;
+        display: table;
+        width: 100%;
         .textContent {
-            display:inline-block;
-            float:left;
+            display:table-cell;
             width:75%;
             background-color: #27212c;
             h3 {
@@ -151,10 +151,9 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
     }
     .arrow {
         overflow: auto;
-        display: inline-block;
-        float: left;
+        display: table-cell;
         width: 25%;
-        height: 100%;
+        height: auto;
         background-color: #bc3183;
         position: relative;
         .avatar {
@@ -175,13 +174,13 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
     height: auto;
     .wrapper {
         overflow: hidden;
+        display: flex;
+        width: 100%;
     }
     .arrow {
         overflow: auto;
-        display: inline-block;
-        float: left;
-        width: 33.333%;
-        height: 100%;
+        width: 33.333333%;
+        height: auto;
         background-color: #5b0fa1;
         position: relative;
         .avatar {
@@ -197,9 +196,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
         }
     }
     .photo {
-        display: inline-block;
-        float: left;
-        width: 33.333%;
+        width: 33.333333%;
         height: auto;
         img {
             display: block;
