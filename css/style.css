@@ -139,12 +139,11 @@ li {
   text-align: center;
 }
 #robinHood .content {
-  overflow: hidden;
-  height: 245px;
+  display: table;
+  width: 100%;
 }
 #robinHood .content .textContent {
-  display: inline-block;
-  float: left;
+  display: table-cell;
   width: 75%;
   background-color: #27212c;
 }
@@ -156,10 +155,9 @@ li {
 }
 #robinHood .arrow {
   overflow: auto;
-  display: inline-block;
-  float: left;
+  display: table-cell;
   width: 25%;
-  height: 100%;
+  height: auto;
   background-color: #bc3183;
   position: relative;
 }
@@ -179,13 +177,13 @@ li {
 }
 #photos .wrapper {
   overflow: hidden;
+  display: flex;
+  width: 100%;
 }
 #photos .arrow {
   overflow: auto;
-  display: inline-block;
-  float: left;
-  width: 33.333%;
-  height: 100%;
+  width: 33.333333%;
+  height: auto;
   background-color: #5b0fa1;
   position: relative;
 }
@@ -201,9 +199,7 @@ li {
   cursor: pointer;
 }
 #photos .photo {
-  display: inline-block;
-  float: left;
-  width: 33.333%;
+  width: 33.333333%;
   height: auto;
 }
 #photos .photo img {
